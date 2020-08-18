@@ -1,4 +1,4 @@
-﻿/*
+/*
  *
  * Grounded Development Level Unlocker v1.03
  * - by VooDooShamane
@@ -210,7 +210,8 @@ PatchPak() { ; Patch-Unpatch Function
     Control, EditPaste, `r`nPatch Done!`r`nOriginal Game files restored.`r`nTo verify patch`, open Pak File again`r`n`r`n, Edit2, Grounded Dev lvl Unlocker
 		} else {
     Control, EditPaste, `r`nPatch Done!`r`nDevelopment Level unlocked.`r`nTo verify patch`, open Pak File again`r`n`r`n, Edit2, Grounded Dev lvl Unlocker    
-	}GuiControl,,progres,100
+	}
+GuiControl,,progres,100
 Return
 }
 
